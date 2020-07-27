@@ -5,7 +5,7 @@ import VerMas from "./VerMas";
 function Noticia({ image, title, source, url }) {
 
   return (
-    <Card>
+    <Card style={{width: '300px', height: 'auto'}}>
       <Image src={image} wrapped ui={false} />
       <Card.Content>
         <Card.Description>{title}</Card.Description>
