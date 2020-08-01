@@ -24,3 +24,7 @@ export const dataMenu = [
         name: "deportes"
     },
 ]
+
+export default {
+    dataMenu,
+}
